@@ -1,0 +1,54 @@
+[
+    {
+        "value" : "WAITING_PAYMENT",
+        "label" : "Menunggu Pembayaran"
+    },
+    {
+        "value" : "PAYMENT_ACCEPT",
+        "label" : "Diterima"
+    },
+    {
+        "value" : "PROCESSED",
+        "label" : "Pesanan Diproses"
+    },
+    {
+        "value" : "DELIVERED",
+        "label" : "Pesanan Dikirim"
+    },
+    {
+        "value" : "COMPLETED",
+        "label" : "Pesanan Selesai"
+    },
+    {
+        "value" : "REJECTED",
+        "label" : "Ditolak"
+    },
+    {
+        "value" : "COMPLAINED",
+        "label" : "Dikomplain"
+    },
+    {
+        "value" : "COMPLAINT_PROCESSED",
+        "label" : "Komplain Diproses"
+    },
+    {
+        "value" : "COMPLAINT_DONE",
+        "label" : "Komplain Selesai"
+    },
+    {
+        "value" : "COMPLAINT_REJECTED",
+        "label" : "Komplain Ditolak"
+    },
+    {
+        "value" : "READY_FOR_PICKUP",
+        "label" : "Pesanan Siap Dipickup"
+    },
+    {
+        "value" : "ARRIVED",
+        "label" : "Pesanan Tiba Ditujuan"
+    },
+    {
+        "value" : "REFUND",
+        "label" : "Pesanan Dikembalikan (Refund)"
+    }
+]

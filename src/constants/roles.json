@@ -1,0 +1,190 @@
+[
+  {
+    "role": ["MIKA_PHARMACY", "ALTEA_PHARMACY"],
+    "routes": "/data-transaction",
+    "actions": [
+      {
+        "role": "MIKA_PHARMACY",
+        "action": ["VIEW"]
+      },
+      {
+        "role": "ALTEA_PHARMACY",
+        "action": ["VIEW", "FILTER_PARTNER"]
+      }
+    ]
+    },
+  {
+    "role": ["MIKA_PHARMACY", "ALTEA_PHARMACY"],
+    "routes": "/order-detail/:id",
+    "actions": [
+      {
+        "role": "MIKA_PHARMACY",
+        "action": ["VIEW"]
+      },
+      {
+        "role": "ALTEA_PHARMACY",
+        "action": ["VIEW"]
+      }
+    ]
+  },
+  {
+    "role": ["ALTEA_PHARMACY"],
+    "routes": "/order-unpaid",
+    "actions": [
+      {
+        "role": "ALTEA_PHARMACY",
+        "action": ["VIEW"]
+      }
+    ]
+  },
+  {
+    "role": ["ALTEA_PHARMACY"],
+    "routes": "/order-accepted",
+    "actions": [
+      {
+        "role": "ALTEA_PHARMACY",
+        "action": ["VIEW"]
+      }
+    ]
+  },
+  {
+    "role": ["MIKA_PHARMACY", "ALTEA_PHARMACY"],
+    "routes": "/order-processed",
+    "actions": [
+      {
+        "role": "MIKA_PHARMACY",
+        "action": ["VIEW"]
+      },
+      {
+        "role": "ALTEA_PHARMACY",
+        "action": ["VIEW", "FILTER_PARTNER"]
+      }
+    ]
+  },
+  {
+    "role": ["MIKA_PHARMACY", "ALTEA_PHARMACY"],
+    "routes": "/order-pickup",
+    "actions": [
+      {
+        "role": "MIKA_PHARMACY",
+        "action": ["VIEW"]
+      },
+      {
+        "role": "ALTEA_PHARMACY",
+        "action": ["VIEW", "FILTER_PARTNER"]
+      }
+    ]
+  },
+  {
+    "role": ["MIKA_PHARMACY", "ALTEA_PHARMACY"],
+    "routes": "/order-send",
+    "actions": [
+      {
+        "role": "MIKA_PHARMACY",
+        "action": ["VIEW"]
+      },
+      {
+        "role": "ALTEA_PHARMACY",
+        "action": ["VIEW", "FILTER_PARTNER"]
+      }
+    ]
+  },
+  {
+    "role": ["MIKA_PHARMACY", "ALTEA_PHARMACY"],
+    "routes": "/order-arrived",
+    "actions": [
+      {
+        "role": "MIKA_PHARMACY",
+        "action": ["VIEW"]
+      },
+      {
+        "role": "ALTEA_PHARMACY",
+        "action": ["VIEW", "FILTER_PARTNER"]
+      }
+    ]
+  },
+  {
+    "role": ["MIKA_PHARMACY", "ALTEA_PHARMACY"],
+    "routes": "/complaint-accepted",
+    "actions": [
+      {
+        "role": "MIKA_PHARMACY",
+        "action": ["VIEW"]
+      },
+      {
+        "role": "ALTEA_PHARMACY",
+        "action": ["VIEW", "FILTER_PARTNER"]
+      }
+    ]
+  },
+  {
+    "role": ["MIKA_PHARMACY", "ALTEA_PHARMACY"],
+    "routes": "/complaint-processed",
+    "actions": [
+      {
+        "role": "MIKA_PHARMACY",
+        "action": ["VIEW"]
+      },
+      {
+        "role": "ALTEA_PHARMACY",
+        "action": ["VIEW", "FILTER_PARTNER"]
+      }
+    ]
+  },
+  {
+    "role": ["MIKA_PHARMACY", "ALTEA_PHARMACY"],
+    "routes": "/complaint-done",
+    "actions": [
+      {
+        "role": "MIKA_PHARMACY",
+        "action": ["VIEW"]
+      },
+      {
+        "role": "ALTEA_PHARMACY",
+        "action": ["VIEW", "FILTER_PARTNER"]
+      }
+    ]
+  },
+  {
+    "role": ["MIKA_PHARMACY", "ALTEA_PHARMACY"],
+    "routes": "/complaint-rejected",
+    "actions": [
+      {
+        "role": "MIKA_PHARMACY",
+        "action": ["VIEW"]
+      },
+      {
+        "role": "ALTEA_PHARMACY",
+        "action": ["VIEW", "FILTER_PARTNER"]
+      }
+    ]
+  },
+  {
+    "role": ["MIKA_PHARMACY", "ALTEA_PHARMACY"],
+    "routes": "/order-refund",
+    "actions": [
+      {
+        "role": "MIKA_PHARMACY",
+        "action": ["VIEW"]
+      },
+      {
+        "role": "ALTEA_PHARMACY",
+        "action": ["VIEW", "FILTER_PARTNER"]
+      }
+    ]
+  },
+  {
+    "role": ["MIKA_PHARMACY", "ALTEA_PHARMACY"],
+    "routes": "/order-done",
+    "actions": [
+      {
+        "role": "MIKA_PHARMACY",
+        "action": ["VIEW"]
+      },
+      {
+        "role": "ALTEA_PHARMACY",
+        "action": ["VIEW", "FILTER_PARTNER"]
+      }
+    ]
+  }
+]

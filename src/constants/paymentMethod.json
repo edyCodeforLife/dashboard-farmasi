@@ -1,0 +1,22 @@
+[
+    {
+        "value" : "VISA",
+        "label" : "Visa Credit Card"
+    },
+    {
+        "value" : "BCA",
+        "label" : "BCA"
+    },
+    {
+        "value" : "BRI",
+        "label" : "BRI"
+    },
+    {
+        "value" : "BNI",
+        "label" : "BNI"
+    },
+    {
+        "value" : "GOPAY",
+        "label" : "Gopay"
+    }
+]

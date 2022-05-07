@@ -1,0 +1,15 @@
+{
+  "WAITING_PAYMENT": "Menunggu Pembayaran",
+  "PAYMENT_ACCEPT": "Pesanan Diterima",
+  "PROCESSED": "Pesanan Diproses",
+  "DELIVERED": "Pesanan Dikirim",
+  "COMPLETED": "Pesanan Selesai",
+  "REJECTED": "Ditolak",
+  "COMPLAINED": "Dikomplain",
+  "COMPLAINT_PROCESSED": "Komplain Diproses",
+  "COMPLAINT_DONE": "Komplain Selesai",
+  "COMPLAINT_REJECTED": "Komplain Ditolak",
+  "READY_FOR_PICKUP": "Pesanan Siap Dipickup",
+  "ARRIVED": "Pesanan Tiba Ditujuan",
+  "REFUND": "Pesanan Dikembalikan (Refund)"
+}

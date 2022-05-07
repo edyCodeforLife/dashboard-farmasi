@@ -1,0 +1,20 @@
+version: "3.7"
+
+networks:
+  default:
+    external:
+      name:
+        local
+
+services:
+  client:
+    container_name: altea-dashboard-pharmacy
+    build:
+      context: .
+      dockerfile: cicd/docker/Dockerfile.local
+    command: npm start
+    volumes:
+      - ./:/usr/react-app
+      - /usr/react-app/node_modules
+    ports:
+      - "8888:8888"

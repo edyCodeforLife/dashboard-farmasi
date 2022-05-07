@@ -1,0 +1,51 @@
+const colors = require("tailwindcss/colors");
+
+module.exports = {
+  purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
+  darkMode: false, // or 'media' or 'class'
+  theme: {
+    colors: {
+      transparent: "transparent",
+      current: "currentColor",
+      mainColor: "#61C7B5",
+      lighter: "#87CDE9",
+      info1: "#3868B0",
+      info2: "#2C528B",
+      info3: "#5B8AD0",
+      subtle: "#D6EDF6",
+      darker: "#3E8CB9",
+      dark1: "#3A3A3C",
+      dark2: "#6B7588",
+      dark3: "#8F90A6",
+      dark4: "#C7C9D9",
+      light1: "#DDE5E9",
+      light2: "#EBEBF0",
+      light3: "#F2F2F5",
+      light4: "#FAFAFC",
+      successState: "#06C270",
+      success2: "#05A660",
+      success3: "#39D98A",
+      error1: "#ED2323",
+      error2: "#D12B2B",
+      error3: "#FF5C5C",
+      error4: "#FF8080",
+      warningState: "#FACC14",
+      redCustom1: "#F8E3E3",
+
+      black: colors.black,
+      white: colors.white,
+      gray: colors.coolGray,
+      red: colors.red,
+      yellow: colors.amber,
+      green: colors.emerald,
+      blue: colors.blue,
+      indigo: colors.indigo,
+      purple: colors.violet,
+      pink: colors.pink,
+    },
+    extend: {},
+  },
+  variants: {
+    display: ['responsive', 'hover', 'group-hover'],
+  },
+};

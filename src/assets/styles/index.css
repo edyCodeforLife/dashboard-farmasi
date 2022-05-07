@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.scroll-green::-webkit-scrollbar {
+  width: 6px;
+  height: 5px;
+}
+
+/* Track */
+.scroll-green::-webkit-scrollbar-track {
+ background: transparent;
+}
+
+/* Handle */
+.scroll-green::-webkit-scrollbar-thumb {
+  background-color: #61C7B5;
+}
+
+.tb-header{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow:ellipsis;
+}
+.icon-sort{
+  display: none;
+}
+.row-header:hover .icon-sort{
+  display: block;
+}
+/* Chrome, Safari, Edge, Opera */
+.no-spin::-webkit-outer-spin-button,
+.no-spin::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.no-spin[type=number] {
+  -moz-appearance: textfield;
+}

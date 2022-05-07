@@ -1,0 +1,98 @@
+[
+	{
+		"text" : "No.",
+		"display" : true,
+		"sorting" : false,
+		"value" : "number"
+  },	
+	{
+		"text" : "Status Transaction",
+		"display" : true,
+		"sorting" : true,
+		"value" : "status" 
+  },
+	{
+		"text" : "Transaction Time",
+		"display" : true,
+		"sorting" : true,
+		"value" : "paymentAt"
+  },
+	{
+		"text" : "Created Time",
+		"display" : true,
+		"sorting" : true,
+		"value" : "createdAt"
+  },
+	{
+		"text" : "Order ID",
+		"display" : true,
+		"sorting" : true,
+		"value" : "referenceCode"
+  },
+	{
+		"text" : "Payment Method",
+		"display" : true,
+		"sorting" : true,
+		"value" : "paymentMethod"
+  },
+	{
+		"text" : "Shipping Price",
+		"display" : true,
+		"sorting" : true,
+		"value" : "totalDelivery"
+  },
+	{
+		"text" : "Original Price",
+		"display" : true,
+		"sorting" : true,
+		"value" : "originalPrice"
+  },
+	{
+		"text" : "Sale Price",
+		"display" : true,
+		"sorting" : true,
+		"value" : "totalProductPrice"
+  },
+	{
+		"text" : "Discount",
+		"display" : true,
+		"sorting" : true,
+		"value" : "discount"
+  },
+	{
+		"text" : "Nett Transaction",
+		"display" : true,
+		"sorting" : true,
+		"value" : "nettTrans"
+  },
+	{
+		"text" : "User Name",
+		"display" : true,
+		"sorting" : true,
+		"value" : "username"
+  },
+	{
+		"text" : "Recipient`s Name",
+		"display" : true,
+		"sorting" : true,
+		"value" : "recipientName"
+  },
+	{
+		"text" : "Recipient`s Address",
+		"display" : true,
+		"sorting" : true,
+		"value" : "recipientAddress"
+  },
+	{
+		"text" : "Hospital",
+		"display" : true,
+		"sorting" : true,
+		"value" : "hospital"
+  },
+	{
+		"text" : "Medicine",
+		"display" : true,
+		"sorting" : true,
+		"value" : "medicine"
+  }
+]

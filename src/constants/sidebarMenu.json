@@ -1,0 +1,75 @@
+[
+  {
+    "text": "Data Transaksi",
+    "slug": "transactionData",
+    "route": "/data-transaction",
+    "children": []
+  },
+  {
+    "text": "Pesanan",
+    "slug": "order",
+    "route": "/order-unpaid",
+    "children": [
+      {
+        "text": "Menunggu Pembayaran",
+        "slug": "orderUnpaid",
+        "route": "/order-unpaid"
+      },
+      {
+        "text": "Diterima",
+        "slug": "orderAccepted",
+        "route": "/order-accepted"
+      },
+      {
+        "text": "Diproses",
+        "slug": "orderProcessed",
+        "route": "/order-processed"
+      },
+      {
+        "text": "Siap di Pickup",
+        "slug": "orderPickup",
+        "route": "/order-pickup"
+      },
+      {
+        "text": "Dikirim",
+        "slug": "orderSend",
+        "route": "/order-send"
+      },
+      {
+        "text": "Tiba di Tujuan",
+        "slug": "orderArrived",
+        "route": "/order-arrived"
+      },
+      {
+        "text": "Dikomplain",
+        "slug": "orderComplaint",
+        "route": "/complaint-accepted"
+      },
+      {
+        "text": "Komplain Diproses",
+        "slug": "complaintProcessed",
+        "route": "/complaint-processed"
+      },
+      {
+        "text": "Komplain Selesai",
+        "slug": "complaintDone",
+        "route": "/complaint-done"
+      },
+      {
+        "text": "Komplain Ditolak",
+        "slug": "complaintRejected",
+        "route": "/complaint-rejected"
+      },
+      {
+        "text": "Refund",
+        "slug": "orderRefund",
+        "route": "/order-refund"
+      },
+      {
+        "text": "Pesanan Selesai",
+        "slug": "orderDone",
+        "route": "/order-done"
+      }
+    ]
+  }
+]
